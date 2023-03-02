@@ -1,8 +1,8 @@
 # The Poem of Life
 Generative art created on an ESP-32.
+Link to blog post [here](https://samiam2000.github.io/MeMakey/general/2023/03/01/generative-art-the-poem-of-life.html).
 
 https://user-images.githubusercontent.com/84295663/222331901-82a77561-6947-449a-a1f4-fb403e574fc7.mp4
-
 
 
 ![esps_in_the_dark](/Module_1/Pictures/esps_in_the_dark.jpeg)
