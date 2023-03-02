@@ -1,5 +1,3 @@
-# CS-3930-Creative-Embedded-Systems
-
 # The Poem of Life
 Generative art created on an ESP-32.
 
@@ -10,7 +8,7 @@ ESPs in the dark
 The one above that says "I am struggling" is mine.
 
 ## Creative Vision
-I wanted to envision my ESP-32 as a living being that experienced emotions and random happenings in life. It would start up, experience things, rest, and then repeat again. The waking and sleeping of the machine also serves as a metaphor for life where we are born, get involved in a series of random, spontaneous happenings thorughout our lives, and then we die.
+I wanted to envision my ESP-32 as a living being that experienced emotions and random happenings in life. It would start up, experience things, rest, and then repeat again. The waking and sleeping of the machine also serves as a metaphor for life where we are born, get involved in a series of random, spontaneous happenings throughout our lives, and then we die.
 
 The installation space would have other ESP-32s in the same space, so I thought that making my board imitate a living being would be a good way to interact with the other boards and invite viewers to regard these small specks that light up as individual lives flashing in front of them. Each board is merely a speck amongst the multitude, just as in the ending sequence of my program, there are stars to show that's where come from and what we'll eventually return to.
 
