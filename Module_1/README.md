@@ -36,7 +36,7 @@ The randomly generated states of being come from an array that has the numbers 1
 
 ![loops](/Module_1/Pictures/loops.png)
 
-Some of the states also had subtext that came along with them such as `beep boop 00101011010` that would be returned whenever the screen displayed "I am coding." This I put into another function called do motion. I was originally going to include motions such as rotating the screen etc. that triggered when a certain number was called, but I did not end up implementing it. If one were to wish to do so, they could just write the code in the do_motion function:
+Some of the states also had subtext that came along with them such as `beep boop 00101011010` that would be returned whenever the screen displayed "I am coding." This I put into another function called do motion. I was originally going to include motions such as rotating the screen etc. that triggered when a certain number was called, but I did not end up implementing it. If one were to wish to do so, they could just alter the code in the do_motion function:
 
 ![do_motion](/Module_1/Pictures/do_motion.png)
 
