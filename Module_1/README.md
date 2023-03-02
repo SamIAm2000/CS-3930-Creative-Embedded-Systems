@@ -13,12 +13,12 @@ I wanted to envision my ESP-32 as a living being that experienced emotions and r
 The installation space would have other ESP-32s in the same space, so I thought that making my board imitate a living being would be a good way to interact with the other boards and invite viewers to regard these small specks that light up as individual lives flashing in front of them. Each board is merely a speck amongst the multitude, just as in the ending sequence of my program, there are stars to show that's where come from and what we'll eventually return to.
 
 ## Setup
-Since our batteries were malfunctioning and we could not set up the ESP-32s independently without a battery, our professor very generously dedicated his time to building a board that could connect up to 15 ESP32s to a power source. They are connected via USB-C connectors. It looks like this:
+Since our batteries were malfunctioning and we could not set up the ESP-32s independently without a battery, our professor very generously dedicated his time to building a board that could connect up to 15 ESP-32s to a power source. They are connected via USB-C connectors. It looks like this:
 
 ![empty_board](/Module_1/Pictures/empty_board.jpg)
 
 ## Code
-The Arduino code for the ESP32 is in the file generative_art.ino
+The Arduino code for the ESP-32 is in the file generative_art.ino
 
 The basic structure of the program is 
 1. The Intro Sequence, where the program wakes up and comes into being from an infinitude of stars
