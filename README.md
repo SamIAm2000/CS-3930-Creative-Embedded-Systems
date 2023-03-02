@@ -3,12 +3,10 @@
 # The Poem of Life
 Generative art created on an ESP-32.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4seEMUTgprs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-![esps_in_the_dark](/MeMakey/assets/esps_in_the_dark.jpeg)
+![esps_in_the_dark](/CS-3930-Creative-Embedded-Systems/Pictures/esps_in_the_dark.jpeg)
 ESPs in the dark
 
-![i_am_struggling](/Pictures/i_am_struggling.jpeg)
+![i_am_struggling](/CS-3930-Creative-Embedded-Systems/Pictures/i_am_struggling.jpeg)
 The one above that says "I am struggling" is mine.
 
 ## Creative Vision
