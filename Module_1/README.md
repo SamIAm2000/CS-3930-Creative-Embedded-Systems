@@ -23,6 +23,7 @@ Since our batteries were malfunctioning and we could not set up the ESP-32s inde
 
 ## Code
 The Arduino code for the ESP-32 is in the file generative_art.ino
+I used the Arduino IDE to upload the code to the ESP-32. Before this can be done, I had to install the TFT_eSPI library and add "https://dl.espressif.com/dl/package_esp32_index.json" to the board manager URLs under the Arduino IDE settings.
 
 The basic structure of the program is 
 1. The Intro Sequence, where the program wakes up and comes into being from an infinitude of stars
