@@ -21,9 +21,12 @@ Since our batteries were malfunctioning and we could not set up the ESP-32s inde
 
 ![empty_board](/Module_1/Pictures/empty_board.jpg)
 
-## Code
+## Technical Setup and Code
 The Arduino code for the ESP-32 is in the file generative_art.ino
-I used the Arduino IDE to upload the code to the ESP-32. Before this can be done, I had to install the TFT_eSPI library and add "https://dl.espressif.com/dl/package_esp32_index.json" to the board manager URLs under the Arduino IDE settings.
+
+To replicate this project, first install the Arduino IDE.
+
+To upload the code onto the ESP-32, you will have to install the TFT_eSPI library and add "https://dl.espressif.com/dl/package_esp32_index.json" to the board manager URLs under the Arduino IDE settings. You will also have to select the TTGO T1 board under Tools -> Boards -> ESP-32 -> TTGO T1. After the board has been installed, go to where you installed your Arduino libraries, (go Arduino -> libraries -> TFT_eSPI -> User_Setup_Select.h) and open User_Setup_Select.h in a text editor. Comment out the line that says "include <User_Setup.h>" and uncomment the line that says "//#include <User_Setups/Setup25_TTGO_T_Display.h>" and save. Your board should be all set up. For a more detailed walkthrough, see [here](https://youtu.be/adLUgmCJKnM).
 
 The basic structure of the program is 
 1. The Intro Sequence, where the program wakes up and comes into being from an infinitude of stars
