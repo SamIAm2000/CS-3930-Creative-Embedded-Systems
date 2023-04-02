@@ -1,8 +1,8 @@
-int xyzPins[] = {12,13, 15};   //x,y,z pins
-const int buttonPin = 2;  // the number of the pushbutton pin
+int xyzPins[] = {2,15, 13};   //x,y,z pins
+const int buttonPin = 25;  // the number of the pushbutton pin
 
 void setup()	{	
-	Serial.begin(9600) ;
+	Serial.begin(115200) ;
 	// pinMode(8,INPUT); 
 	// digitalWrite(8,HIGH);	
   // initialize the pushbutton pin as an input:
@@ -21,7 +21,7 @@ void loop()	{
 	Serial.print(",");
 	Serial.print(!zVal);
   Serial.print(",");
-  Serial.print(buttonState);
+  Serial.print(!buttonState);
 	Serial.print("\n");
 	delay(100);	
 }
