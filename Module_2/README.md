@@ -1,5 +1,5 @@
 # Signage
-Interactive art created on an ESP-32. Link to blog post [here](https://samiam2000.github.io/MeMakey/general/2023/04/02/device-for-mark-making.html).
+Interactive art created on an ESP-32. Link to blog post [here](https://samiam2000.github.io/MeMakey/general/2023/04/02/device-for-mark-making.html). Link to Youtube video demo [here](https://youtu.be/4LrRDydORug).
 
 ![concrete_front_view](/Module_2/Pictures/concrete_front_view.JPG)
 Concrete enclosure
