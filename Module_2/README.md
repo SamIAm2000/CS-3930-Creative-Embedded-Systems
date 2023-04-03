@@ -1,5 +1,5 @@
 # Signage
-Interactive art created on an ESP-32. Link to blog post [here] (https://samiam2000.github.io/MeMakey/general/2023/04/02/device-for-mark-making.html).
+Interactive art created on an ESP-32. Link to blog post [here](https://samiam2000.github.io/MeMakey/general/2023/04/02/device-for-mark-making.html).
 
 ![concrete_front_view](/Module_2/Pictures/concrete_front_view.JPG)
 Concrete enclosure
@@ -41,6 +41,7 @@ Mark-making is an ongoing process. You can change the marks that you make, yet y
 ![drawing1](/Module_2/Pictures/drawing1.png)
 -"Burn" 4/2/2023
 Full-screen drawing made by the Device
+
 In this piece, I used two Chinese characters, "火" which means fire and "木" which means wood. In Chinese, when you combine multiples of the fire characters, you get a new word, e.g., "炎" with two of the fire characters means hot and "焱" with three means flames. A similar thing can happen with the wood character. By layering these characters upon each other and altering the font size and placement, I wanted to play with the shapes of the characters themselves and juxtapose their meanings. 
 
 ![drawing3](/Module_2/Pictures/drawing3.png)
