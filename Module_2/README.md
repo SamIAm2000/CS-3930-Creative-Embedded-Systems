@@ -8,7 +8,7 @@ Concrete enclosure
 Side view of concrete enclosure
 
 ## Code
-My complete code for the ESP-32 and Processing can be found respcetively in the folders [arduinojoystick](https://github.com/SamIAm2000/CS-3930-Creative-Embedded-Systems/tree/main/Module_2/Pictures/arduinojoystick) and [signage](https://github.com/SamIAm2000/CS-3930-Creative-Embedded-Systems/tree/main/Module_2/Pictures/signage).
+My complete code for the ESP-32 and Processing can be found respcetively in the folders [arduinojoystick](https://github.com/SamIAm2000/CS-3930-Creative-Embedded-Systems/tree/main/Module_2/arduinojoystick) and [signage](https://github.com/SamIAm2000/CS-3930-Creative-Embedded-Systems/tree/main/Module_2/signage).
 
 The Arduino code is the standard set-up code to wire up a joystick and button and send signals through serial communication. The .pde Processing code takes in the raw x,y values of the joystick and converts it to up, down, left, right. Pressing the button will trigger a function that saves the entire canvas while adding blur and random noise. Pressing the joystick's switch will also blur, add noise, and save the canvas but it will also invert the whole canvas' colors.
 
@@ -16,7 +16,7 @@ In the Arduino code, the x, y, z, pins for the joystick are defined up top at th
 
 The Processing code mainly works by loading an image called "drawing.png" that's saved in the same folder as the Processing sketch every time the draw() function runs. When the user sets their mark and saves the image, the new image overwrites the previous "drawing.png" so there is no going back on mark-making; no room for reversals or erasing "mistakes."
 
-Although replacing the canvas is discouraged, sometimes it is necessary to start from a blank slate. The folder [empty_canvas]() contains a .pde file that will generate a blank white canvas named "drawing.png" in the same folder. You can copy this blank "drawing.png" to replace the one in the signage folder so that when you run the mark-making code, you will get a blank canvas. Make sure that the dimensions of the canvases are of the same size in both of the processing sketches. 
+Although replacing the canvas is discouraged, sometimes it is necessary to start from a blank slate. The folder [empty_canvas](https://github.com/SamIAm2000/CS-3930-Creative-Embedded-Systems/tree/main/Module_2/empty_canvas) contains a .pde file that will generate a blank white canvas named "drawing.png" in the same folder. You can copy this blank "drawing.png" to replace the one in the signage folder so that when you run the mark-making code, you will get a blank canvas. Make sure that the dimensions of the canvases are of the same size in both of the processing sketches. 
 
 In the main Processing sketch, the one in the "signage" folder, you can change the font, text, font size etc., in the defined variables at the top of the page. You can also change "noiselev" to increase or decrease the noise (i.e. the number of randomly generated pixels everytime you make a mark) and change "blurfactor" to change how blurry you want the image to be. Remember that the blurs add up so a little goes a long way.
 
